@@ -1,0 +1,54 @@
+@import 'global';
+
+
+
+
+.blog {
+    height: $size;
+    width: $size;
+    background-color: $color;
+
+    @media (orientation:landscape) {
+        background-color: green;
+    }
+
+    @if(1 + 1 == 2){
+        border: 10px solid;
+        border-color: black;
+    }
+    @else if($size >= 400) {
+        border-color: red;
+    }
+}
+
+div{
+    ul{
+        list-style: none; 
+        margin: 0;
+        padding: 0;  
+    }
+    p{
+        color:red;
+        font-size: large;
+    }
+}
+
+@media (orientation:landscape) {
+    .blog {
+        background-color: blue;
+    }
+}
+
+@mixin repetido($tamano, $color) {
+    height: $tamano;
+    width: $tamano;
+    background-color: beige;
+}
+
+.blog {
+    @include repetido(500px,green);
+}
+
+.blog2 {
+    @include repetido(300px, beige);
+}

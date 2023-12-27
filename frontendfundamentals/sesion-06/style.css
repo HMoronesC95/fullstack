@@ -1,0 +1,142 @@
+body {
+    background-image: url('https://paas-s3-broker-prod-lon-2edbd31f-65e0-4d35-9755-fde7c3b1b292.s3.amazonaws.com/images/Tech.2e16d0ba.fill-1920x622.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$ INDEX START $$$$$$$$$$$$$$$$*/
+/*/////////////////////////////HEADER INICIO///////////////////*/
+
+.fixedheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.imgheader {
+    background-color: #b1b535;
+    margin: 1%;
+}
+
+.menuheader {
+    background-color:black;
+    border: solid;
+    border-width: thin;
+    color: white;
+    align-self: flex-end; 
+    width: 60%;
+    min-width: fit-content;
+}
+
+#blog, #cursos, #ayuda, #config {
+    display: inline;
+    margin-left: 12.5%;
+}
+
+.SigninLoginbtn {
+    color: #fff;
+    background-color:#025157;
+    align-self: flex-end;
+}
+
+/*/////////////////////////////HEADER FIN/////////////////////*/
+
+/*///////////////////////////CAROUSEL INICIO//////////////////*/
+
+#carouselExampleIndicators {
+    margin-top: 8rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.carousel .carousel-item {
+    max-height: 30rem;
+    max-width: 80%;
+    margin-left: 10%;
+    border: black 1rem solid;
+    
+}
+
+.carousel-indicators {
+    background-color: rgba(128, 128, 128, 0.522);
+    max-width: 10%;
+    margin-left: 45%;
+}
+
+.carousel-control-prev {
+    background-color: rgba(128, 128, 128, 0.522);
+}
+
+.carousel-control-next {
+    background-color: rgba(128, 128, 128, 0.522);
+}
+
+/*///////////////////////////CAROUSEL FIN//////////////////////*/
+.blogdemario {
+    font-size: 60px;
+    color: white;
+}
+
+
+
+/*///////////////////////////VIDEO FIN//////////////////////*/
+
+/*///////////////////////////GRID INICIO//////////////////*/
+.car {
+    
+}
+
+.car1 {
+   
+}
+
+.car2 {
+    
+
+}
+
+.car3 {
+    
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;/* px, %, fr, repeat(N°,dim)*/
+    grid-template-rows: auto;
+    color: white;
+}
+
+/*///////////////////////////GRID FIN//////////////////*/
+
+/*$$$$$$$$$$$$$$$$$$$$ INDEX END $$$$$$$$$$$$$$$$*/
+
+/*$$$$$$$$$$$$$$$$$$$$ PRICING START $$$$$$$$$$$$$$$$*/
+
+.pricing {
+    margin-top: 8rem;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$ PRICING END $$$$$$$$$$$$$$$$*/
+
+/*$$$$$$$$$$$$$$$$$$$$ FEATURES START$$$$$$$$$$$$$$$$*/
+
+.featuresh1 {
+    margin-top: 8rem;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$ FEATURES END $$$$$$$$$$$$$$$$*/
+

@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+    
+}
+p {
+    color: #46484c;
+}
+button {
+    color: #fff;
+    background-color:#025157;
+}
+body {
+    background-color:#379df0a1;
+}
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    padding: 12px
+}
+
+.menu1 {
+    margin: 40px;
+    padding: 10px;
+    background-color: #f33838;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu2 {
+    margin: 40px;
+    padding: 10px;
+    background-color: #abf338;
+    display:flex;
+    justify-content: left;
+    align-items: center; 
+}

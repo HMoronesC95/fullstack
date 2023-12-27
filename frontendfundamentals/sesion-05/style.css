@@ -1,0 +1,104 @@
+body {
+    background-color:#379df0a1;
+    position: relative;
+}
+
+
+/*/////////////////////////////HEADER INICIO///////////////////*/
+
+.fixedheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(197, 28, 28, 0.712);
+}
+
+.imgheader {
+    background-color: #b1b535;
+    margin: 2%;
+}
+
+.menuheader {
+    background-color:#025728;
+    align-self: flex-end; 
+    width: 60%;
+    min-width: fit-content;
+}
+
+#blog, #cursos, #ayuda, #config {
+    display: inline;
+    border: solid;
+    border-width: thin;
+    margin-left: 12.5%;
+}
+
+.SigninLoginbtn {
+    color: #fff;
+    background-color:#025157;
+    align-self: flex-end;
+   
+}
+
+/*/////////////////////////////HEADER FIN/////////////////////*/
+
+.blogdemario {
+    font-size: 60px;
+    margin-top: 10rem;
+}
+
+/*///////////////////////////VIDEO INICIO//////////////////*/
+.promo {
+    display: flex; 
+    background-color: #f4f4f3;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.videocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 236, 236);
+}
+.videocontainer img {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+
+/*///////////////////////////VIDEO FIN//////////////////////*/
+
+/*///////////////////////////GRID INICIO//////////////////*/
+.car {
+    justify-content: center;
+}
+
+.car1 {
+    background-color: rgb(208, 208, 220);
+}
+
+.car2 {
+    background-color: rgb(225, 201, 201);
+
+}
+
+.car3 {
+    background-color: rgb(238, 238, 197);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;/* px, %, fr, repeat(N°,dim)*/
+    grid-template-rows: auto;
+}
+
+/*///////////////////////////GRID FIN//////////////////*/

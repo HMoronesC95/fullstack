@@ -1,0 +1,69 @@
+body {
+    background-color:#379df0a1;
+    position: relative;
+}
+
+
+/*/////////////////////////////HEADER INICIO///////////////////*/
+
+.fixedheader {
+    background-color: #b535a0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgheader {
+    background-color: #b1b535;
+}
+
+.menuheader {
+    background-color:#025728;
+    align-self: flex-end; 
+    width: 60%;
+    min-width: fit-content;
+}
+
+#blog, #cursos, #ayuda, #config {
+    display: inline;
+    border: solid;
+    border-width: thin;
+    margin-left: 12.5%;
+}
+
+.SigninLoginbtn {
+    color: #fff;
+    background-color:#025157;
+    align-self: flex-end;
+   
+}
+
+/*/////////////////////////////HEADER FIN/////////////////////*/
+
+
+.promo {
+    display: flex; 
+    background-color: #f4f4f3;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.videocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 236, 236);
+}
+.videocontainer img {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
